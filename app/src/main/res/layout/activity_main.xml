@@ -59,7 +59,7 @@
         android:textSize="18sp"
         android:layout_marginHorizontal="11dp"
         android:background="@color/white"
-        android:textColor="@color/white"
+        android:textColor="@color/green"
         android:textStyle="bold"
         android:layout_marginTop="11dp"/>
 
