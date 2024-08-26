@@ -16,6 +16,7 @@
         android:src="@drawable/download" />
 
     <EditText
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="11dp"
@@ -29,6 +30,7 @@
         android:textStyle="bold" />
 
     <EditText
+        android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="11dp"
@@ -47,16 +49,16 @@
         android:fontFamily="sans-serif-thin"
         android:text="Forget Password"
         android:textSize="16sp"
-
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold" />
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Log in"
-
+        android:layout_gravity="center"
         android:fontFamily="sans-serif-thin"
-        android:textSize="18sp"
+        android:textSize="22sp"
         android:layout_marginHorizontal="11dp"
         android:background="@color/white"
         android:textColor="@color/green"
@@ -69,7 +71,7 @@
         android:textStyle="bold"
         android:text="Creat new account"
         android:fontFamily="sans-serif-thin"
-        android:textColor="@color/black"
+        android:textColor="#0BB7CD"
         android:textAlignment="center"
         android:textSize="16dp"
         android:layout_margin="11dp"/>
